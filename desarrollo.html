@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8"/>
+    <title>Desarrollo del Juego</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Roboto&display=swap" rel="stylesheet">
+    <style>
+       
+        header{padding:18px;text-align:center;background:rgba(0,0,0,0.18);}
+        header h1{margin:0;font-family:'Orbitron',sans-serif;color:#ff0000;}
+        .wrap{max-width:960px;margin:28px auto;padding:18px;}
+        img{display:block;margin:18px auto;width:420px;border-radius:12px;}
+    
+    </style>
+</head>
+<body>
+    <header><h1>Desarrollo del Juego</h1></header>
+    <div class="wrap">
+        <div class="card">
+            <p>Se realiza un tablero con casillas numeradas (1 al 50) y cartas con operaciones de potenciación. Cada jugador tiene una ficha: al resolver correctamente una potencia, lanza el dado y avanza; si falla, pierde el turno.</p>
+
+            <h4>Casillas especiales:</h4>
+            <ul>
+                <li><strong>Casilla Explosiva:</strong> potencia con exponente negativo.</li>
+                <li><strong>Casilla Turbo:</strong> resuelves una potencia de exponente grande → avanzas el doble.</li>
+                <li><strong>Casilla Trampa:</strong> si fallas, retrocedes 3 casillas.</li>
+            </ul>
+
+            <img src="board.png" alt="tablero y dado" />
+            <a class="back" href="proyecto.html">⬅ Volver al menú principal</a>
+        </div>
+    </div>
+</body>
+</html>
+
